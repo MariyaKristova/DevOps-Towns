@@ -2,20 +2,24 @@
  
 body { 
 	font-family: 'Rubik', sans-serif; 
+	display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 50px; 
+    padding: 20px;
 } 
  
 * { 
 	box-sizing: content-box; 
 } 
- 
-article { 
-	background: #CCC; 
-	width: 180px; 
-	padding: 10px; 
-	margin: 10px; 
-	display: inline-block; 
-	vertical-align: top; 
-} 
+
+article {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+	width: 400px;
+    padding: 10px;
+    background-color: #CCC;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
  
 article>header { 
 	background: #5F5F5F; 
